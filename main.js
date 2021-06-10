@@ -51,3 +51,13 @@ class MiddleSchool extends School {
     }
   }
   
+class HighSchool extends School {
+    constructor(name, numOfStudents, sportsTeams) {
+      super(name, 'high', numOfStudents);
+      this._sportsTeams = sportsTeams;
+    }
+
+  get sportsTeams() {
+    console.log(this._sportsTeams);
+  }
+}
