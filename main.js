@@ -62,6 +62,8 @@ class HighSchool extends School {
   }
 }
 
+/* Testing
+
 const lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.');
 
 lorraineHansbury.quickFacts();
@@ -74,4 +76,4 @@ alSmith.sportsTeams;
 
 const macallanField = new MiddleSchool('Macallan Field', 'middle', 342);
 
-macallanField.quickFacts();
+macallanField.quickFacts(); */
