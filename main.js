@@ -71,3 +71,7 @@ const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'V
 School.pickSubstituteTeacher(['Jamal Crawford', 'Lou Williams', 'J. R. Smith', 'James Harden', 'Jason Terry', 'Manu Ginobli']);
 
 alSmith.sportsTeams;
+
+const macallanField = new MiddleSchool('Macallan Field', 'middle', 342);
+
+macallanField.quickFacts();
