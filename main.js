@@ -33,3 +33,14 @@ class School {
         console.log(substituteTeachers[n]);
       }
     }
+
+class PrimarySchool extends School {
+    constructor(name, numOfStudents, pickupPolicy) {
+      super(name, 'primary', numOfStudents);
+      this._pickupPolicy = pickupPolicy;
+    }
+  
+    get pickupPolicy() {
+      return this.pickupPolicy;
+    }
+  }
